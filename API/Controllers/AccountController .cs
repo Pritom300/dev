@@ -28,6 +28,8 @@ namespace API.Controllers
             _context = context;
         }
 
+        
+
 
         [HttpPost("register")]
         public async Task <ActionResult<User>> Register(RegisterDto registerDto)

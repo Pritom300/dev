@@ -40,7 +40,7 @@ namespace API.Controllers
 
 
         
-        [HttpGet("Update")]
+        [HttpGet("UpdateEmployee")]
         public void Update(int Id,Employee em)
         {
             var oE = _context.Employee.FirstOrDefault(n=> n.Id==Id);
